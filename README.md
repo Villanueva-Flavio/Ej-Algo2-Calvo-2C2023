@@ -1,7 +1,7 @@
 # Ejercicios - Algoritmos 2 Calvo, Recopilaciones
 
 Este es un recopilatorio de ejercicios resueltos de todo lo que haya podido hacer
-Seguirá una estructura simple, y está categorizado en las distintas carpetas
+seguirá una estructura simple, y está categorizado en las distintas carpetas
 Punteros, Lista, TDA, Heap, Grafos
 
 La intención de esto es poder usarlo de práctica.
