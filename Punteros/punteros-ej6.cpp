@@ -1,11 +1,12 @@
 /******************************************************************************
- *                   Algoritmos y Programación II - 75.41                     *
- *                        Cátedra Ing. Patricia Calvo                         *
- *            Facultad de Ingeniería - Universidad de Buenos Aires            *
+ *                   Algoritmos y Programaciï¿½n II - 75.41                     *
+ *                        Cï¿½tedra Ing. Patricia Calvo                         *
+ *            Facultad de Ingenierï¿½a - Universidad de Buenos Aires            *
  ******************************************************************************/ 
 
 /* Punteros
- * Ejercicio Tipo Parcial Nº6 
+ * Ejercicio Tipo Parcial Nï¿½6 
+ * Estado: Resuelto
  */
 
 #include <stdlib.h>
@@ -57,6 +58,7 @@ int main(){
   if (F == (*B))
     cout << (*A) << (*C) << endl;
 
+  // Deletes
   delete A;
   delete F;
 

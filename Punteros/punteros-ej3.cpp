@@ -1,11 +1,12 @@
 /******************************************************************************
- *                   Algoritmos y Programación II - 75.41                     *
- *                        Cátedra Ing. Patricia Calvo                         *
- *            Facultad de Ingeniería - Universidad de Buenos Aires            *
+ *                   Algoritmos y Programaciï¿½n II - 75.41                     *
+ *                        Cï¿½tedra Ing. Patricia Calvo                         *
+ *            Facultad de Ingenierï¿½a - Universidad de Buenos Aires            *
  ******************************************************************************/ 
 
 /* Punteros
- * Ejercicio Tipo Parcial Nº3 
+ * Ejercicio Tipo Parcial Nï¿½3 
+ * Estado: Resuelto
  */
 
 #include <stdlib.h>
@@ -63,6 +64,7 @@ int main(){
     cout << (*E) << endl;
   }
 
+  // Deletes:
   delete A;
   delete F;
 

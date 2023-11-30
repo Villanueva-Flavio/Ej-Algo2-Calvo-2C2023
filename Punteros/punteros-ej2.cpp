@@ -1,11 +1,12 @@
 /******************************************************************************
- *                   Algoritmos y Programación II - 75.41                     *
- *                        Cátedra Ing. Patricia Calvo                         *
- *            Facultad de Ingeniería - Universidad de Buenos Aires            *
+ *                   Algoritmos y Programaciï¿½n II - 75.41                     *
+ *                        Cï¿½tedra Ing. Patricia Calvo                         *
+ *            Facultad de Ingenierï¿½a - Universidad de Buenos Aires            *
  ******************************************************************************/ 
 
 /* Punteros
- * Ejercicio Tipo Parcial Nº2  - Poder Legistativo (publicado en internet)
+ * Ejercicio Tipo Parcial Nï¿½2  - Poder Legistativo (publicado en internet)
+ * Estado: Resuelto
  */
 
 #include <stdlib.h>
@@ -18,10 +19,10 @@ typedef int* Pint;
 typedef char* Pchar;
 
 /*
-  Datos que pueden ser utiles: El caracter 'á' es igual al entero 160.
-                               El caracter 'é' es igual al entero 130.
-                               El caracter 'ñ' es igual al entero 164.
-                               El caracter 'Ñ' es igual al entero 165.
+  Datos que pueden ser utiles: El caracter 'ï¿½' es igual al entero 160.
+                               El caracter 'ï¿½' es igual al entero 130.
+                               El caracter 'ï¿½' es igual al entero 164.
+                               El caracter 'ï¿½' es igual al entero 165.
                                El caracter '@' es igual al entero 64.
 */
 
@@ -34,7 +35,7 @@ int main(){
   int H;
 
   H = 164;
-  G = 'Ñ';
+  G = 'ï¿½';
   A = new int;
   F = new int;
   (*A) = 160;
@@ -62,6 +63,7 @@ int main(){
   (*C) = (*C) + 160;
   cout << (*F) << endl;
 
+  // Deletes:
   delete A;
   delete F;
 
@@ -71,9 +73,9 @@ int main(){
 /*
   Resultado:
   
-      64Ñ160
+      64ï¿½160
       165165
-      Ñ165165
-      Ñ2
+      ï¿½165165
+      ï¿½2
       160  
 */
